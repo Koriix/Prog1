@@ -53,7 +53,6 @@ int main()
 try{
 	
 	B1 b;
-
 	b.vf();
 	b.f();
 
@@ -70,12 +69,11 @@ try{
 	dd.f();
 	dd.pvf();
 
+	D21 s;
+	D22 i;
 
-	D21 two_one;
-	D22 two_two;
-
-	f(two_one);
-	f(two_two);
+	f(s);
+	f(i);
 
 }
 catch(exception& e)
